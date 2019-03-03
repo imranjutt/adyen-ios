@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53C0FEFC4B5CD9400E89E4CA /* Pods_AdyenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BE1722DC859E029DDBCF09 /* Pods_AdyenTests.framework */; };
 		7C62EBEC1F3C793700C9D67E /* PaymentMethodExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62EBEB1F3C793700C9D67E /* PaymentMethodExtensions.swift */; };
-		7D7AD12FB4E950056731EEB6 /* Pods_Adyen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AEC312DF920BCC1C4BC1C0 /* Pods_Adyen.framework */; };
-		C3A02E02B25D9A9E913FA639 /* Pods_AdyenUIHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FCC0F6EB491A052CC61D81 /* Pods_AdyenUIHost.framework */; };
 		E20AD01A1EFAB0310065B70E /* Adyen.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD00C1EFAB0310065B70E /* Adyen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD06A1EFAB0E00065B70E /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AD0251EFAB0E00065B70E /* CurrencyFormatter.swift */; };
 		E20AD06C1EFAB0E00065B70E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AD0281EFAB0E00065B70E /* Error.swift */; };
@@ -55,7 +52,6 @@
 		E20AD0CF1EFAB1950065B70E /* PaymentMethodPaypalRecurring.json in Resources */ = {isa = PBXBuildFile; fileRef = E20AD0BB1EFAB1950065B70E /* PaymentMethodPaypalRecurring.json */; };
 		E20AD0D01EFAB1950065B70E /* PaymentMethodSepa.json in Resources */ = {isa = PBXBuildFile; fileRef = E20AD0BC1EFAB1950065B70E /* PaymentMethodSepa.json */; };
 		E20AD0D31EFAB1BF0065B70E /* JsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AD0D21EFAB1BF0065B70E /* JsonReader.swift */; };
-		E2131CC91F5D7A44006F8886 /* PaymentMethod+CardPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2131CC81F5D7A44006F8886 /* PaymentMethod+CardPlugin.swift */; };
 		E2131CCC1F5D8225006F8886 /* PaymentMethodCardPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2131CCB1F5D8225006F8886 /* PaymentMethodCardPluginTests.swift */; };
 		E21DC5DF1F27332600472C41 /* PaymentInitiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DC5DE1F27332600472C41 /* PaymentInitiation.swift */; };
 		E21DC5E11F27426600472C41 /* PaymentInitiationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DC5E01F27426600472C41 /* PaymentInitiationTests.swift */; };
@@ -73,16 +69,6 @@
 		E250382F1F175D0800DCFD38 /* ApplePayDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250382E1F175D0800DCFD38 /* ApplePayDetailsPresenter.swift */; };
 		E25038321F175FA700DCFD38 /* IdealPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038311F175FA700DCFD38 /* IdealPlugin.swift */; };
 		E25038341F175FDC00DCFD38 /* IdealDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038331F175FDC00DCFD38 /* IdealDetailsPresenter.swift */; };
-		E25038381F1761BD00DCFD38 /* CardPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038371F1761BD00DCFD38 /* CardPlugin.swift */; };
-		E250383B1F1761D000DCFD38 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250383A1F1761D000DCFD38 /* CardType.swift */; };
-		E250383D1F17620A00DCFD38 /* CardOneClickDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250383C1F17620A00DCFD38 /* CardOneClickDetailsPresenter.swift */; };
-		E250383F1F1763AB00DCFD38 /* CardFormDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250383E1F1763AB00DCFD38 /* CardFormDetailsPresenter.swift */; };
-		E25038451F17641700DCFD38 /* CardFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038401F17641700DCFD38 /* CardFormViewController.swift */; };
-		E25038461F17641700DCFD38 /* CardFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25038411F17641700DCFD38 /* CardFormViewController.xib */; };
-		E25038471F17641700DCFD38 /* CardInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038421F17641700DCFD38 /* CardInputData.swift */; };
-		E25038481F17641700DCFD38 /* CardPaymentFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038431F17641700DCFD38 /* CardPaymentFieldManager.swift */; };
-		E25038491F17641700DCFD38 /* CheckoutTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25038441F17641700DCFD38 /* CheckoutTextField.swift */; };
-		E250384B1F17642600DCFD38 /* CardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E250384A1F17642600DCFD38 /* CardValidator.swift */; };
 		E250E13F1F0E606000BFFF2F /* Adyen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20AD0091EFAB0310065B70E /* Adyen.framework */; };
 		E250E1401F0E606000BFFF2F /* Adyen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E20AD0091EFAB0310065B70E /* Adyen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E275BB301FC2C54D00C7719E /* PaymentRequestToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E275BB2F1FC2C54D00C7719E /* PaymentRequestToken.swift */; };
@@ -124,8 +110,6 @@
 		E2BA22371FD96BE300AC982E /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA22361FD96BE300AC982E /* PickerViewController.swift */; };
 		E2BA22391FD96CEB00AC982E /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA22381FD96CEB00AC982E /* PickerViewCell.swift */; };
 		E2BA223B1FD9702800AC982E /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA223A1FD9702800AC982E /* PickerItem.swift */; };
-		E2BA223E1FD9971600AC982E /* MOLPayPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA223D1FD9971600AC982E /* MOLPayPlugin.swift */; };
-		E2BA22401FD997CC00AC982E /* MOLPayDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA223F1FD997CC00AC982E /* MOLPayDetailsPresenter.swift */; };
 		E2BF6CCD1F0395670065E574 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF6CCC1F0395670065E574 /* TestCase.swift */; };
 		E2BF6CCF1F0397060065E574 /* SEPADirectDebitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF6CCE1F0397060065E574 /* SEPADirectDebitTests.swift */; };
 		E2BF6CD11F0397AC0065E574 /* XCUIElementQueryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF6CD01F0397AC0065E574 /* XCUIElementQueryExtensions.swift */; };
@@ -176,15 +160,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20191199750F47C401152B90 /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
-		36FCC0F6EB491A052CC61D81 /* Pods_AdyenUIHost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenUIHost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39B692648B2F9A2E64860876 /* Pods-Adyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adyen/Pods-Adyen.release.xcconfig"; sourceTree = "<group>"; };
-		4D2C0B04986E87ADFBF3FD11 /* Pods-AdyenUIHost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenUIHost.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenUIHost/Pods-AdyenUIHost.release.xcconfig"; sourceTree = "<group>"; };
-		7370242B72CA01D6FB771E34 /* Pods-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenTests/Pods-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C62EBEB1F3C793700C9D67E /* PaymentMethodExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodExtensions.swift; sourceTree = "<group>"; };
-		9D45EFB0559159A56AFB2ED0 /* Pods-AdyenUIHost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenUIHost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenUIHost/Pods-AdyenUIHost.debug.xcconfig"; sourceTree = "<group>"; };
-		B7AEC312DF920BCC1C4BC1C0 /* Pods_Adyen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3BE1722DC859E029DDBCF09 /* Pods_AdyenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AD0091EFAB0310065B70E /* Adyen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AD00C1EFAB0310065B70E /* Adyen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adyen.h; sourceTree = "<group>"; };
 		E20AD00D1EFAB0310065B70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -233,8 +209,6 @@
 		E20AD0BB1EFAB1950065B70E /* PaymentMethodPaypalRecurring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaymentMethodPaypalRecurring.json; sourceTree = "<group>"; };
 		E20AD0BC1EFAB1950065B70E /* PaymentMethodSepa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaymentMethodSepa.json; sourceTree = "<group>"; };
 		E20AD0D21EFAB1BF0065B70E /* JsonReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonReader.swift; sourceTree = "<group>"; };
-		E20AD1E81EFBE7630065B70E /* AdyenCSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdyenCSE.framework; path = Carthage/Build/iOS/AdyenCSE.framework; sourceTree = "<group>"; };
-		E2131CC81F5D7A44006F8886 /* PaymentMethod+CardPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PaymentMethod+CardPlugin.swift"; sourceTree = "<group>"; };
 		E2131CCB1F5D8225006F8886 /* PaymentMethodCardPluginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodCardPluginTests.swift; sourceTree = "<group>"; };
 		E21DC5DE1F27332600472C41 /* PaymentInitiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInitiation.swift; sourceTree = "<group>"; };
 		E21DC5E01F27426600472C41 /* PaymentInitiationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInitiationTests.swift; sourceTree = "<group>"; };
@@ -252,16 +226,6 @@
 		E250382E1F175D0800DCFD38 /* ApplePayDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayDetailsPresenter.swift; sourceTree = "<group>"; };
 		E25038311F175FA700DCFD38 /* IdealPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdealPlugin.swift; sourceTree = "<group>"; };
 		E25038331F175FDC00DCFD38 /* IdealDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdealDetailsPresenter.swift; sourceTree = "<group>"; };
-		E25038371F1761BD00DCFD38 /* CardPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPlugin.swift; sourceTree = "<group>"; };
-		E250383A1F1761D000DCFD38 /* CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
-		E250383C1F17620A00DCFD38 /* CardOneClickDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardOneClickDetailsPresenter.swift; sourceTree = "<group>"; };
-		E250383E1F1763AB00DCFD38 /* CardFormDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFormDetailsPresenter.swift; sourceTree = "<group>"; };
-		E25038401F17641700DCFD38 /* CardFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFormViewController.swift; sourceTree = "<group>"; };
-		E25038411F17641700DCFD38 /* CardFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFormViewController.xib; sourceTree = "<group>"; };
-		E25038421F17641700DCFD38 /* CardInputData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInputData.swift; sourceTree = "<group>"; };
-		E25038431F17641700DCFD38 /* CardPaymentFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPaymentFieldManager.swift; sourceTree = "<group>"; };
-		E25038441F17641700DCFD38 /* CheckoutTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutTextField.swift; sourceTree = "<group>"; };
-		E250384A1F17642600DCFD38 /* CardValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidator.swift; sourceTree = "<group>"; };
 		E275BB2F1FC2C54D00C7719E /* PaymentRequestToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRequestToken.swift; sourceTree = "<group>"; };
 		E275BB311FC2D04500C7719E /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		E27DA5351F28D0DA008487D5 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
@@ -307,8 +271,6 @@
 		E2BA22361FD96BE300AC982E /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		E2BA22381FD96CEB00AC982E /* PickerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewCell.swift; sourceTree = "<group>"; };
 		E2BA223A1FD9702800AC982E /* PickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
-		E2BA223D1FD9971600AC982E /* MOLPayPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLPayPlugin.swift; sourceTree = "<group>"; };
-		E2BA223F1FD997CC00AC982E /* MOLPayDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLPayDetailsPresenter.swift; sourceTree = "<group>"; };
 		E2BF6CC11F03952C0065E574 /* AdyenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdyenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BF6CC51F03952D0065E574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2BF6CCC1F0395670065E574 /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
@@ -322,7 +284,6 @@
 		E2E9D0241F0389C80056E0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E9D0291F0389C80056E0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2EE2E4A1F0141CD008DC96D /* IBANValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBANValidatorTests.swift; sourceTree = "<group>"; };
-		EEDFC6FAA3826763FD1E99D3 /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,7 +291,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7AD12FB4E950056731EEB6 /* Pods_Adyen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A167C61F0E704100A27E4A /* Adyen.framework in Frameworks */,
-				53C0FEFC4B5CD9400E89E4CA /* Pods_AdyenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,26 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E250E13F1F0E606000BFFF2F /* Adyen.framework in Frameworks */,
-				C3A02E02B25D9A9E913FA639 /* Pods_AdyenUIHost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C63A3DBF353ABFDA95AC068 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				20191199750F47C401152B90 /* Pods-Adyen.debug.xcconfig */,
-				39B692648B2F9A2E64860876 /* Pods-Adyen.release.xcconfig */,
-				7370242B72CA01D6FB771E34 /* Pods-AdyenTests.debug.xcconfig */,
-				EEDFC6FAA3826763FD1E99D3 /* Pods-AdyenTests.release.xcconfig */,
-				9D45EFB0559159A56AFB2ED0 /* Pods-AdyenUIHost.debug.xcconfig */,
-				4D2C0B04986E87ADFBF3FD11 /* Pods-AdyenUIHost.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E20ACFFF1EFAB0310065B70E = {
 			isa = PBXGroup;
 			children = (
@@ -384,7 +329,6 @@
 				E2E9D01C1F0389C80056E0AC /* AdyenUIHost */,
 				E20AD00A1EFAB0310065B70E /* Products */,
 				E20AD1E71EFBE7630065B70E /* Frameworks */,
-				2C63A3DBF353ABFDA95AC068 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -505,9 +449,7 @@
 			isa = PBXGroup;
 			children = (
 				E250382B1F175C8500DCFD38 /* ApplePay */,
-				E25038121F1751D200DCFD38 /* Cards */,
 				E25038301F175F9800DCFD38 /* Ideal */,
-				E2BA223C1FD996C100AC982E /* MOLPay */,
 				E25038191F1759AB00DCFD38 /* SEPADirectDebit */,
 			);
 			path = Plugins;
@@ -588,10 +530,6 @@
 		E20AD1E71EFBE7630065B70E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E20AD1E81EFBE7630065B70E /* AdyenCSE.framework */,
-				B7AEC312DF920BCC1C4BC1C0 /* Pods_Adyen.framework */,
-				D3BE1722DC859E029DDBCF09 /* Pods_AdyenTests.framework */,
-				36FCC0F6EB491A052CC61D81 /* Pods_AdyenUIHost.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -600,23 +538,6 @@
 			isa = PBXGroup;
 			children = (
 				E2131CCB1F5D8225006F8886 /* PaymentMethodCardPluginTests.swift */,
-			);
-			path = Cards;
-			sourceTree = "<group>";
-		};
-		E25038121F1751D200DCFD38 /* Cards */ = {
-			isa = PBXGroup;
-			children = (
-				E25038391F1761D000DCFD38 /* Utilities */,
-				E25038371F1761BD00DCFD38 /* CardPlugin.swift */,
-				E250383C1F17620A00DCFD38 /* CardOneClickDetailsPresenter.swift */,
-				E250383E1F1763AB00DCFD38 /* CardFormDetailsPresenter.swift */,
-				E25038401F17641700DCFD38 /* CardFormViewController.swift */,
-				E25038411F17641700DCFD38 /* CardFormViewController.xib */,
-				E25038421F17641700DCFD38 /* CardInputData.swift */,
-				E25038431F17641700DCFD38 /* CardPaymentFieldManager.swift */,
-				E25038441F17641700DCFD38 /* CheckoutTextField.swift */,
-				E2131CC81F5D7A44006F8886 /* PaymentMethod+CardPlugin.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -659,15 +580,6 @@
 				E25038331F175FDC00DCFD38 /* IdealDetailsPresenter.swift */,
 			);
 			path = Ideal;
-			sourceTree = "<group>";
-		};
-		E25038391F1761D000DCFD38 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				E250384A1F17642600DCFD38 /* CardValidator.swift */,
-				E250383A1F1761D000DCFD38 /* CardType.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		E27DA5331F28D0DA008487D5 /* Checkout */ = {
@@ -799,15 +711,6 @@
 			path = Picker;
 			sourceTree = "<group>";
 		};
-		E2BA223C1FD996C100AC982E /* MOLPay */ = {
-			isa = PBXGroup;
-			children = (
-				E2BA223D1FD9971600AC982E /* MOLPayPlugin.swift */,
-				E2BA223F1FD997CC00AC982E /* MOLPayDetailsPresenter.swift */,
-			);
-			path = MOLPay;
-			sourceTree = "<group>";
-		};
 		E2BF6CC21F03952C0065E574 /* AdyenUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,13 +781,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E20AD01D1EFAB0310065B70E /* Build configuration list for PBXNativeTarget "Adyen" */;
 			buildPhases = (
-				6B95865FF45820DB15409BA1 /* [CP] Check Pods Manifest.lock */,
 				E20AD0041EFAB0310065B70E /* Sources */,
 				E20AD0051EFAB0310065B70E /* Frameworks */,
 				E20AD0061EFAB0310065B70E /* Headers */,
 				E20AD0071EFAB0310065B70E /* Resources */,
-				E226F1431EFCF50A009E04C9 /* SwiftLint */,
-				02474A22ADD502EEE43DCD38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1025,7 +925,6 @@
 			files = (
 				E27DA5701F28D48C008487D5 /* Media.xcassets in Resources */,
 				E27DA5711F28D48C008487D5 /* Localizable.strings in Resources */,
-				E25038461F17641700DCFD38 /* CardFormViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,21 +965,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02474A22ADD502EEE43DCD38 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adyen/Pods-Adyen-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2DC1652936EDFD1499FBF286 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1097,24 +981,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdyenUIHost/Pods-AdyenUIHost-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B95865FF45820DB15409BA1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Adyen-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F9EB542D6DFC7ED0AD003A8 /* [CP] Copy Pods Resources */ = {
@@ -1183,20 +1049,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdyenTests/Pods-AdyenTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E226F1431EFCF50A009E04C9 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
-		};
 		FE27A79BD5717B7A94254E4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1234,30 +1086,25 @@
 				E27DA5451F28D0DA008487D5 /* CheckoutViewController.swift in Sources */,
 				E25038241F175A0B00DCFD38 /* SEPADirectDebitFormViewControllerDelegate.swift in Sources */,
 				E25038321F175FA700DCFD38 /* IdealPlugin.swift in Sources */,
-				E2BA223E1FD9971600AC982E /* MOLPayPlugin.swift in Sources */,
 				E250381F1F1759B100DCFD38 /* IBANTextField.swift in Sources */,
 				E20AD06A1EFAB0E00065B70E /* CurrencyFormatter.swift in Sources */,
 				E20AD06F1EFAB0E00065B70E /* PaymentMethodType.swift in Sources */,
 				E20AD0731EFAB0E00065B70E /* BoolExtensions.swift in Sources */,
 				E25038271F175A1300DCFD38 /* SEPADirectDebitFormViewController.swift in Sources */,
 				E20AD0701EFAB0E00065B70E /* PaymentRequestResult.swift in Sources */,
-				E25038481F17641700DCFD38 /* CardPaymentFieldManager.swift in Sources */,
 				E27DA5481F28D0DA008487D5 /* UITableViewControllerExtensions.swift in Sources */,
 				E27DA5791F28D48C008487D5 /* PaymentDetailsPresenter.swift in Sources */,
 				E275BB301FC2C54D00C7719E /* PaymentRequestToken.swift in Sources */,
-				E2BA22401FD997CC00AC982E /* MOLPayDetailsPresenter.swift in Sources */,
 				E27DA56F1F28D48C008487D5 /* Localization.swift in Sources */,
 				E20AD07C1EFAB0E00065B70E /* PaymentDetails.swift in Sources */,
 				E20AD0791EFAB0E00065B70E /* InputSelectItem.swift in Sources */,
 				E29C11461F1CA288005F321C /* Plugin.swift in Sources */,
 				E20AD0771EFAB0E00065B70E /* URLExtensions.swift in Sources */,
 				E27DA5781F28D48C008487D5 /* UIImageViewExtensions.swift in Sources */,
-				E2131CC91F5D7A44006F8886 /* PaymentMethod+CardPlugin.swift in Sources */,
 				E20AD0801EFAB0E00065B70E /* PaymentServer.swift in Sources */,
 				E27DA54E1F28D0DA008487D5 /* PaymentMethodPickerViewControllerDelegate.swift in Sources */,
 				E27DA5771F28D48C008487D5 /* UIImageExtensions.swift in Sources */,
 				E20AD06D1EFAB0E00065B70E /* InputType.swift in Sources */,
-				E250383D1F17620A00DCFD38 /* CardOneClickDetailsPresenter.swift in Sources */,
 				E27DA5861F28D4BE008487D5 /* FormTextField.swift in Sources */,
 				E20AD0841EFAB0E00065B70E /* PaymentRequestDelegate.swift in Sources */,
 				E20AD07A1EFAB0E00065B70E /* PaymentSetup.swift in Sources */,
@@ -1275,7 +1122,6 @@
 				E250382F1F175D0800DCFD38 /* ApplePayDetailsPresenter.swift in Sources */,
 				E2BA22391FD96CEB00AC982E /* PickerViewCell.swift in Sources */,
 				E27DA5461F28D0DA008487D5 /* CheckoutViewControllerDelegate.swift in Sources */,
-				E250383B1F1761D000DCFD38 /* CardType.swift in Sources */,
 				E27DA56E1F28D48C008487D5 /* AppearanceConfiguration.swift in Sources */,
 				E20AD07F1EFAB0E00065B70E /* PaymentRequest.swift in Sources */,
 				E25038341F175FDC00DCFD38 /* IdealDetailsPresenter.swift in Sources */,
@@ -1285,23 +1131,17 @@
 				E27DA54D1F28D0DA008487D5 /* PaymentMethodPickerViewController.swift in Sources */,
 				E25038221F1759C400DCFD38 /* SEPADirectDebitPlugin.swift in Sources */,
 				E27DA5881F28D4BE008487D5 /* FormViewController.swift in Sources */,
-				E25038381F1761BD00DCFD38 /* CardPlugin.swift in Sources */,
 				E29C11471F1CA288005F321C /* PluginManager.swift in Sources */,
 				E27DA5721F28D48C008487D5 /* LoadingTableViewCell.swift in Sources */,
 				E27DA57A1F28D48C008487D5 /* PluginPresentsPaymentDetails.swift in Sources */,
 				E2BA223B1FD9702800AC982E /* PickerItem.swift in Sources */,
 				E27DA5851F28D4BE008487D5 /* FormCheckmarkButton.swift in Sources */,
-				E25038471F17641700DCFD38 /* CardInputData.swift in Sources */,
 				E27DA5761F28D48C008487D5 /* UIColorExtensions.swift in Sources */,
 				7C62EBEC1F3C793700C9D67E /* PaymentMethodExtensions.swift in Sources */,
 				E20AD0741EFAB0E00065B70E /* DictionaryExtensions.swift in Sources */,
 				E20AD0781EFAB0E00065B70E /* InputDetail.swift in Sources */,
-				E250384B1F17642600DCFD38 /* CardValidator.swift in Sources */,
 				E27DA57F1F28D4B7008487D5 /* ContainerViewController.swift in Sources */,
-				E25038491F17641700DCFD38 /* CheckoutTextField.swift in Sources */,
-				E25038451F17641700DCFD38 /* CardFormViewController.swift in Sources */,
 				E21DC5DF1F27332600472C41 /* PaymentInitiation.swift in Sources */,
-				E250383F1F1763AB00DCFD38 /* CardFormDetailsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1505,7 +1345,6 @@
 		};
 		E20AD01E1EFAB0310065B70E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20191199750F47C401152B90 /* Pods-Adyen.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1524,7 +1363,6 @@
 		};
 		E20AD01F1EFAB0310065B70E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39B692648B2F9A2E64860876 /* Pods-Adyen.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1543,7 +1381,6 @@
 		};
 		E20AD0211EFAB0310065B70E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7370242B72CA01D6FB771E34 /* Pods-AdyenTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AdyenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1555,7 +1392,6 @@
 		};
 		E20AD0221EFAB0310065B70E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEDFC6FAA3826763FD1E99D3 /* Pods-AdyenTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AdyenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1593,7 +1429,6 @@
 		};
 		E2E9D02A1F0389C80056E0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D45EFB0559159A56AFB2ED0 /* Pods-AdyenUIHost.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1612,7 +1447,6 @@
 		};
 		E2E9D02B1F0389C80056E0AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D2C0B04986E87ADFBF3FD11 /* Pods-AdyenUIHost.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
